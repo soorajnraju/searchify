@@ -1,0 +1,14 @@
+@import "../../varibales.scss";
+
+.footer-content {
+  min-width: 100vw;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: $blueColor;
+  padding: 10px;
+  height: 100%;
+  .nav-right {
+    margin-right: 10px;
+  }
+}

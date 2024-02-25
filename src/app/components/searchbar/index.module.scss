@@ -1,0 +1,39 @@
+@import "../../varibales.scss";
+
+.searchbar-wrapper {
+  color: #fff;
+  position: relative;
+  .search-lens {
+    position: absolute;
+    top: 5px;
+  }
+  .searchbar {
+    min-width: 300px;
+    min-height: 30px;
+    background-color: $blueColor;
+    border: none;
+    padding-left: 30px;
+  }
+  input[type="text"] {
+    caret-color: #fff;
+    color: #fff;
+  }
+  input::placeholder {
+    color: #fff;
+  }
+  input[type="text"]:focus {
+    outline: none; /* Remove default focus outline */
+    border-color: $orangeColor; /* Custom border color when focused */
+    box-shadow: 0 0 5px $orangeColor; /* Add box shadow when focused (optional) */
+  }
+
+  .suggestions {
+    color: #000;
+    border: 1px solid #ccc;
+    .suggestion {
+      a {
+        color: inherit;
+      }
+    }
+  }
+}

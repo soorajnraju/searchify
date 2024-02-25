@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  body {
+    .main {
+      display: grid;
+      grid-template-areas:
+        "header header header header"
+        "container container container container"
+        "container container container container"
+        "container container container container"
+        "container container container container"
+        "container container container container"
+        "container container container container"
+        "footer footer footer footer";
+      height: 100vh;
+    }
+
+    .header {
+      grid-area: header;
+      position: relative;
+    }
+    .container {
+      grid-area: container;
+    }
+    .footer {
+      grid-area: footer;
+    }
+    li {
+      list-style: none;
+    }
+    a {
+      text-decoration: none;
+    }
+  }
+}

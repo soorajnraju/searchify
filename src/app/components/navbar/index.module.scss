@@ -1,0 +1,15 @@
+@import "../../varibales.scss";
+
+.navbar {
+  color: #fff;
+  min-width: 100vw;
+  min-height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $blueColor;
+  li {
+    display: inline;
+    margin: 0 10px 0 10px;
+  }
+}
