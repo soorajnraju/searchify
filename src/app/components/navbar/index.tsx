@@ -1,9 +1,9 @@
 import Image from "next/image";
 import styles from "./index.module.scss";
 import menu from "@public/menu.svg";
-import NotificationAddIcon from "@mui/icons-material/NotificationAdd";
-import PersonIcon from "@mui/icons-material/Person";
-import ViewComfyAltIcon from "@mui/icons-material/ViewComfyAlt";
+import IconBellPlus from "../icons/icon-bell-plus";
+import IconProfile from "../icons/icon-profile";
+import IconViewGrid from "../icons/icon-viw-grid";
 
 export interface NavBarProps {
   handleToggle: () => void;
@@ -19,13 +19,13 @@ export default function Navbar({ handleToggle }: NavBarProps) {
       </div>
       <div className={styles["nav-right"]}>
         <li>
-          <NotificationAddIcon />
+          <IconBellPlus />
         </li>
         <li>
-          <PersonIcon />
+          <IconProfile />
         </li>
         <li>
-          <ViewComfyAltIcon />
+          <IconViewGrid />
         </li>
       </div>
     </nav>

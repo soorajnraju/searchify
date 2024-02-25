@@ -30,5 +30,7 @@ pnpm dev
 
 Open http://localhost:3000 with your browser to see the result.
 
+Keywords e.g. "ker", "mah"
+
 ![alt text](image.png)
 ![alt text](image-1.png)

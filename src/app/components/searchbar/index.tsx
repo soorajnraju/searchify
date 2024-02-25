@@ -1,9 +1,9 @@
 "use client";
 
 import styles from "./index.module.scss";
-import SearchIcon from "@mui/icons-material/Search";
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import IconSearch from "../icons/icon-search";
 
 export default function SearchBar() {
   const [keyword, setKeyword] = useState<string>();
@@ -25,7 +25,7 @@ export default function SearchBar() {
 
   return (
     <div className={styles["searchbar-wrapper"]}>
-      <SearchIcon className={styles["search-lens"]} />
+      <IconSearch className={styles["search-lens"]} />
       <input
         type="text"
         className={styles.searchbar}
